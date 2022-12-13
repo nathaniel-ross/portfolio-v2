@@ -1,9 +1,9 @@
 function Footer() {
   return (
-    <footer class="footer items-center p-4 bg-neutral text-neutral-content">
-  <div class="items-center grid-flow-col">
+    <footer class="text-center text-sm p-4 bg-neutral text-neutral-content">
+  
     <p>Developed by Nathaniel Ross-Loyo © 2022</p>
-  </div> 
+  
 </footer>
   )
 }
