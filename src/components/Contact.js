@@ -25,6 +25,8 @@ export const Contact = () => {
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 class="mb-4 text-5xl tracking-tight font-extrabold text-center text-white dark:text-white">Contact Me!</h2>
           <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Send me a message here, or at <a className="text-secondary" href="mailto:nathaniel.rossloyo">nathaniel.rossloyo@gmail.com</a></p>
+
+          
           <div class="space-y-8">
               <div>
                   <label for="email" class="block mb-2 text-sm font-medium dark:text-gray-300">Your Email</label>
@@ -40,6 +42,9 @@ export const Contact = () => {
               </div>
               
               <label htmlFor="my-modal" className="btn btn-secondary" type="submit" value="send" class="btn btn-secondary">Send message</label>
+              <p></p>
+
+          
               <input type="checkbox" id="my-modal" className="modal-toggle" />
             <div className="modal">
               <div className="modal-box">
