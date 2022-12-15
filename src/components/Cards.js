@@ -3,7 +3,7 @@ function Cards() {
 
     <div>
 
-<div className="h-full px-6 py-12 lg:flex lg:justify-center">
+<div className="h-full px-7 py-12 lg:flex lg:justify-center">
   <div class="grid lg:grid-cols-3 md:grid-cols-2 md:gap-5 lg:gap-10 gap-5">
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
@@ -86,7 +86,7 @@ function Cards() {
     </div>
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
-      <figure><img src="https://nathaniel-ross.github.io/photos/pastas.png" alt="Shoes" /></figure>
+      <figure><img src="https://nathaniel-ross.github.io/photos/project_wip.png" alt="Shoes" /></figure>
       <div className="card-body w-full max-w-md mx-auto">
         <h2 className="card-title text-white">
           React and Rails Application
