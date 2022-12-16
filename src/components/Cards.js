@@ -86,12 +86,12 @@ function Cards() {
     </div>
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
-      <figure><img src="https://nathaniel-ross.github.io/photos/project_wip.png" alt="Shoes" /></figure>
+      <figure><img src="https://nathaniel-ross.github.io/photos/cat-tinder-reactrails.png" alt="React app 'Cat-Tinder'" /></figure>
       <div className="card-body w-full max-w-md mx-auto">
         <h2 className="card-title text-white">
           React and Rails Application
         </h2>
-        <p>Created a decoupled React and Rails application, allowing the user to create, edit, and delete profiles on a "cat-tinder" application.</p>
+        <p>Created a decoupled React and Rails application, allowing the user to create, edit, and delete profiles on a "cat-tinder" application. Features an index that shows all the profiles created</p>
 
         <a href="https://github.com/learn-academy-2022-foxtrot/cat-tinder-frontend-olena-nate" target="_blank" rel="noreferrer"><button class="btn btn-secondary btn-block">GitHub Repo</button></a>
 
