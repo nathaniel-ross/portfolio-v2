@@ -2,7 +2,7 @@ function Header() {
   return (
 
 <header class="sticky top-0 z-50">
-<div className="navbar bg-base-200 bg-opacity-95">
+<div className="navbar bg-base-200 bg-opacity-95 text-white">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -14,7 +14,7 @@ function Header() {
         <li><a className="btn normal-case btn-ghost text-lg" href="#contact">Contact</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-2xl" href="#top">Nathaniel Ross-Loyo</a>
+    <a className="btn btn-ghost normal-case text-2xl text-white" href="#top">Nathaniel Ross-Loyo</a>
   </div>
   <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

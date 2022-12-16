@@ -13,6 +13,7 @@ function About() {
       </div>
     </div>
   </div>
+
     <div class="bg-base-300 shadow-2xl h-full px-6 py-12 lg:flex lg:justify-center ">
     <h1 class="text-5xl tracking-tight font-extrabold text-white mt-24 pr-20">Tech Stack & Experience</h1>
     
