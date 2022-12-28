@@ -13,6 +13,7 @@ export const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+        e.target.reset()
   };
 
 
@@ -41,7 +42,7 @@ export const Contact = () => {
                   <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-secondary focus:border-secondary dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
               </div>
               
-              <label htmlFor="my-modal" className="btn btn-secondary" type="submit" value="send" class="btn btn-secondary">Send message</label>
+              <button htmlFor="my-modal" className="btn btn-secondary" type="submit" value="send" class="btn btn-secondary">Send message</button>
               <p></p>
 
           
