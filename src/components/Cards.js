@@ -106,12 +106,12 @@ function Cards() {
     </div>
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
-      <figure><img src="https://nathaniel-ross.github.io/photos/project_wip.png" alt="Shoes" /></figure>
+      <figure><img src="https://nathaniel-ross.github.io/photos/vue-todo.jpg" alt="To-Do Mobile App" /></figure>
       <div className="card-body">
         <h2 className="card-title text-white">
-        React and Rails Application
+        Vue.js To-Do Application
         </h2>
-        <p>In Ruby we made a text-based adventure game accessible in the terminal. In the game there are multiple paths to go down with ASCII art to go along with some of the scenes</p>
+        <p>Using Vue 3 and Vite I've created a simple to-do application that saves your name, your tasks, and can be updated with new tasks or deleted</p>
         <button class="btn btn-secondary">GitHub Repo</button>
         <br />
         <div className="card-actions justify-end">
