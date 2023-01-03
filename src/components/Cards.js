@@ -106,7 +106,7 @@ function Cards() {
     </div>
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
-      <figure><img src="https://nathaniel-ross.github.io/photos/vue-todo.jpg" alt="Shoes" /></figure>
+      <figure><img src="https://nathaniel-ross.github.io/photos/vue-todo.jpg" alt="To-Do Mobile App" /></figure>
       <div className="card-body">
         <h2 className="card-title text-white">
         Vue.js To-Do Application
