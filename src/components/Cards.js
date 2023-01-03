@@ -115,7 +115,9 @@ function Cards() {
         <button class="btn btn-secondary">GitHub Repo</button>
         <br />
         <div className="card-actions justify-end">
-          <div className="badge badge-outline">Ruby</div> 
+          <div className="badge badge-outline">Vue</div> 
+          <div className="badge badge-outline">Vite</div> 
+          <div className="badge badge-outline">CSS</div> 
         </div>
       </div>
     </div>
