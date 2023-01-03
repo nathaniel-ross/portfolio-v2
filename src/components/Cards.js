@@ -112,7 +112,9 @@ function Cards() {
         Vue.js To-Do Application
         </h2>
         <p>Using Vue 3 and Vite I've created a simple to-do application that saves your name, your tasks, and can be updated with new tasks or deleted</p>
-        <button class="btn btn-secondary">GitHub Repo</button>
+        
+        <a href="https://github.com/nathaniel-ross/vue-prac" target="_blank" rel="noreferrer"><button class="btn btn-secondary btn-block">GitHub Repo</button></a>
+
         <br />
         <div className="card-actions justify-end">
           <div className="badge badge-outline">Vue</div> 
