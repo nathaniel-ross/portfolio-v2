@@ -1,3 +1,10 @@
+import pastas from "../asssets/pastas.jpg"
+import textgame from "../asssets/textgame.jpg"
+import piglatin from "../asssets/piglatin.jpg"
+import tictactoe from "../asssets/tictactoe.jpg"
+import cattinder from "../asssets/cattinder.jpg"
+import vuetodo from "../asssets/vuetodo.jpg"
+
 function Cards() {
   return (
 
@@ -7,7 +14,7 @@ function Cards() {
   <div class="grid lg:grid-cols-3 md:grid-cols-2 md:gap-5 lg:gap-10 gap-5">
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
-      <figure><img src="https://nathaniel-ross.github.io/photos/pastas.png" alt="Pasta Pairings App" /></figure>
+      <figure><img src={pastas} alt="Pasta Pairings App" /></figure>
       <div className="card-body w-full max-w-md mx-auto">
         <h2 className="card-title text-white">
           React in Rails Application
@@ -31,7 +38,7 @@ function Cards() {
     </div>
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
-      <figure><img src="https://nathaniel-ross.github.io/photos/text-game.jpg" alt="Text Based Game" /></figure>
+      <figure><img src={textgame} alt="Text Based Game" /></figure>
       <div className="card-body">
         <h2 className="card-title text-white">
         Text-Based Game
@@ -48,7 +55,7 @@ function Cards() {
     </div>
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
-      <figure><img src="https://nathaniel-ross.github.io/photos/piglatin.jpg" alt="Pig Latin Translator" /></figure>
+      <figure><img src={piglatin} alt="Pig Latin Translator" /></figure>
       <div className="card-body">
         <h2 className="card-title text-white">
         Pig Latin Translator
@@ -67,7 +74,7 @@ function Cards() {
     </div>
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
-      <figure><img src="https://nathaniel-ross.github.io/photos/tic-tac-toe2.jpg" alt="Tic-Tac-Toe Game" /></figure>
+      <figure><img src={tictactoe} alt="Tic-Tac-Toe Game" /></figure>
       <div className="card-body">
         <h2 className="card-title text-white">
         Tic-Tac-Toe
@@ -86,7 +93,7 @@ function Cards() {
     </div>
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
-      <figure><img src="https://nathaniel-ross.github.io/photos/cat-tinder-reactrails.png" alt="React app 'Cat-Tinder'" /></figure>
+      <figure><img src={cattinder} alt="React app 'Cat-Tinder'" /></figure>
       <div className="card-body w-full max-w-md mx-auto">
         <h2 className="card-title text-white">
           React and Rails Application
@@ -106,7 +113,7 @@ function Cards() {
     </div>
 
     <div className="px-50 card w-96 bg-gray-700 shadow-2xl ">
-      <figure><img src="https://nathaniel-ross.github.io/photos/vue-todo.jpg" alt="To-Do Mobile App" /></figure>
+      <figure><img src={vuetodo} alt="To-Do Mobile App" /></figure>
       <div className="card-body">
         <h2 className="card-title text-white">
         Vue.js To-Do Application
