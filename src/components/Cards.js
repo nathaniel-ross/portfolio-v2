@@ -13,7 +13,7 @@ function Cards() {
           React in Rails Application
         </h2>
 
-        <a href="https://perfect-pasta-pairings.herokuapp.com/" target="_blank" rel="noreferrer"><button class="btn btn-secondary btn-sm">Live Site</button></a>
+        {/* <a href="https://perfect-pasta-pairings.herokuapp.com/" target="_blank" rel="noreferrer"><button class="btn btn-secondary btn-sm">Live Site</button></a> */}
 
         <p>Design lead for a React in Rails application where we created a website listing different pairings for pastas. Able to log in with an account and create, edit and delete different pairings</p>
 
@@ -59,8 +59,8 @@ function Cards() {
 
         <br />
         <div className="card-actions justify-end">
-          <div className="badge badge-outline">React</div> 
           <div className="badge badge-outline">JavaScript</div> 
+          <div className="badge badge-outline">React</div> 
           <div className="badge badge-outline">HTML/CSS</div> 
         </div>
       </div>
@@ -78,8 +78,8 @@ function Cards() {
 
         <br />
         <div className="card-actions justify-end">
-          <div className="badge badge-outline">React</div> 
-          <div className="badge badge-outline">JavaScript</div> 
+          <div className="badge badge-outline">JavaScript</div>
+          <div className="badge badge-outline">React</div>  
           <div className="badge badge-outline">HTML/CSS</div>
         </div>
       </div>
@@ -100,7 +100,7 @@ function Cards() {
           <div className="badge badge-outline">React</div> 
           <div className="badge badge-outline">Rails</div>
           <div className="badge badge-outline">HTML/CSS</div>
-          <div className="badge badge-outline">MUI</div>
+          <div className="badge badge-outline">Reactstrap</div>
         </div>
       </div>
     </div>
@@ -119,7 +119,7 @@ function Cards() {
         <div className="card-actions justify-end">
           <div className="badge badge-outline">Vue</div> 
           <div className="badge badge-outline">Vite</div> 
-          <div className="badge badge-outline">CSS</div> 
+          <div className="badge badge-outline">HTML/CSS</div> 
         </div>
       </div>
     </div>
