@@ -11,7 +11,7 @@ function Hero() {
         <h1 class="text-5xl tracking-tight font-extrabold text-white">Hi, I'm Nathaniel!</h1>
         <p class="py-7 text-4xl">Full-stack developer with an emphasis on friendly design, creating responsive and dynamic web applications.</p>
         
-        <button class="btn btn-secondary"><a href="#contact">Send me a message</a></button>
+        <a href="#contact"><button class="btn btn-secondary">Send me a message</button></a>
       </div>
     </div>
   </div>
