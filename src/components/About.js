@@ -17,9 +17,36 @@ function About() {
   </div>
 
     <div class="bg-base-300 shadow-2xl h-full px-6 py-12 lg:flex lg:justify-center ">
-    <h1 class="text-5xl tracking-tight font-extrabold text-white mt-24 pr-20">Tech Stack & Experience</h1>
-    
-        <div class="grid grid-cols-3 px-6 py-12 lg:gap-8">
+    <h1 class="text-5xl tracking-tight font-extrabold text-white mt-24 pr-20">Tech Stack <br/>& Experience</h1>
+    <br/>
+
+    <div className="mockup-code">
+      <pre data-prefix="$"><code>Languages</code></pre> 
+      <pre data-prefix=">" className="text-warning"><code>JavaScript</code></pre> 
+      <pre data-prefix=">" className="text-warning"><code>HTML & CSS</code></pre> 
+      <pre data-prefix=">" className="text-warning"><code>Ruby</code></pre> 
+      <pre data-prefix=">" className="text-warning"><code>Rails</code></pre>
+      <br/>
+      <pre data-prefix="$"><code>Testing</code></pre> 
+      <pre data-prefix=">" className="text-warning"><code>Jest</code></pre>
+      <pre data-prefix=">" className="text-warning"><code>RSpec</code></pre>
+      <pre data-prefix=">" className="text-warning"><code>React Testing Library</code></pre>
+      </div>
+
+      <div className="mockup-code">
+      <pre data-prefix="$"><code>Frameworks</code></pre> 
+      <pre data-prefix=">" className="text-success"><code>React</code></pre> 
+      <pre data-prefix=">" className="text-success"><code>Vue</code></pre> 
+      <pre data-prefix=">" className="text-success"><code>MUI</code></pre> 
+      <pre data-prefix=">" className="text-success"><code>TailwindCSS</code></pre>
+      <br/>
+      <pre data-prefix="$"><code>Technologies</code></pre>
+      <pre data-prefix=">" className="text-success"><code>Devise</code></pre>
+      <pre data-prefix=">" className="text-success"><code>Postman</code></pre>
+      <pre data-prefix=">" className="text-success"><code>PostgreSQL</code></pre>
+    </div>
+
+        {/* <div class="grid grid-cols-3 px-6 py-12 lg:gap-8">
           <div>JavaScript</div>
           <div>HTML & CSS</div>
           <div>React</div>
@@ -32,7 +59,7 @@ function About() {
           <div>Postman</div>
           <div>MUI</div>
           <div>Tailwind CSS</div>
-        </div>
+        </div> */}
     </div>
 
   
