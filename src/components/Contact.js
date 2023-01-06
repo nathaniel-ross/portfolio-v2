@@ -31,15 +31,15 @@ export const Contact = () => {
           <div class="space-y-8">
               <div>
                   <label for="email" class="block mb-2 text-sm font-medium dark:text-gray-300">Your Email</label>
-                  <input type="email" id="user_email" name="user_email" class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-secondary focus:border-secondary block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@gmail.com" required/>
+                  <input type="email" id="user_email" name="user_email" class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-secondary focus:border-secondary block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Email@gmail.com" required/>
               </div>
               <div>
                   <label for="email" class="block mb-2 text-sm font-medium dark:text-gray-300">Your Name</label>
-                  <input type="text" id="user_name" name="user_name" class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-secondary focus:border-secondary block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Name here" required/>
+                  <input type="text" id="user_name" name="user_name" class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-secondary focus:border-secondary block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 text-black dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Name" required/>
               </div>
               <div class="sm:col-span-2">
                   <label for="message" class="block mb-2 text-sm font-medium dark:text-gray-400">Your Message</label>
-                  <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-secondary focus:border-secondary dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                  <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-secondary focus:border-secondary dark:bg-gray-700 dark:border-gray-600 text-black dark:placeholder-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a message..."></textarea>
               </div>
               
               <button htmlFor="my-modal" className="btn btn-secondary" type="submit" value="send" class="btn btn-secondary">Send message</button>
