@@ -20,18 +20,31 @@ function About() {
     <h1 class="text-5xl tracking-tight font-extrabold text-white mt-24 pr-20">Tech Stack & Experience</h1>
     
         <div class="grid grid-cols-3 px-6 py-12 lg:gap-8">
-          <div>JavaScript</div>
-          <div>HTML & CSS</div>
-          <div>React</div>
-          <div>Ruby</div>
-          <div>Vue</div>
-          <div>Rails</div>
-          <div>PostgreSQL</div>
-          <div>Active Record</div>
-          <div>JEST & RSPEC</div>
-          <div>Postman</div>
-          <div>MUI</div>
-          <div>Tailwind CSS</div>
+
+          <div><a className="text-secondary" href="https://javascript.com" target="_blank" rel="noreferrer">JavaScript</a></div>
+
+          <div><a className="text-secondary" href="https://developer.mozilla.aorg/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer">HTML</a> <a className="text-secondary">&</a> <a className="text-secondary" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">CSS</a></div>
+
+          <div><a className="text-secondary" href="https://reactjs.org/" target="_blank" rel="noreferrer">React</a></div>
+
+          <div><a className="text-secondary" href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer">Ruby</a></div>
+
+          <div><a className="text-secondary" href="https://vuejs.org/" target="_blank" rel="noreferrer">Vue</a></div>
+
+          <div><a className="text-secondary" href="https://rubyonrails.org/" target="_blank" rel="noreferrer">Rails</a></div>
+
+          <div><a className="text-secondary" href="https://www.postgresql.org/" target="_blank" rel="noreferrer">PostgreSQL</a></div>
+
+          <div><a className="text-secondary" href="https://guides.rubyonrails.org/active_record_basics.html" target="_blank" rel="noreferrer">Active Record</a></div>
+
+          <div><a className="text-secondary" href="https://jestjs.io/" target="_blank" rel="noreferrer">JEST</a> <a className="text-secondary">&</a> <a className="text-secondary" href="http://rspec.info/" target="_blank" rel="noreferrer">RSPEC</a></div>
+
+          <div><a className="text-secondary" href="https://www.postman.com/" target="_blank" rel="noreferrer">Postman</a></div>
+
+          <div><a className="text-secondary" href="https://mui.com/" target="_blank" rel="noreferrer">MUI</a></div>
+
+          <div><a className="text-secondary" href="https://tailwindcss.com/" target="_blank" rel="noreferrer">Tailwind CSS</a></div>
+
         </div>
     </div>
 
