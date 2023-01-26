@@ -4,7 +4,7 @@ function Hero() {
   return (
     <>
   
-    <div class="hero my-32 ">
+    <div class="hero my-16 ">
     <div class="hero-content flex-col lg:flex-row-reverse mx-4">
       <img src={me_drawing} class="max-w-sm mx-6 rounded-full shadow-2xl" alt="Drawing of Nathaniel"/>
       <div>

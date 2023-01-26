@@ -9,7 +9,8 @@ function Cards() {
   return (
 
     <div>
-
+<h1 class="text-5xl tracking-tight font-extrabold text-white text-center">Projects</h1>
+<br/>
 <div className="h-full w-full flex justify-center lg:flex lg:justify-center">
   <div class="grid lg:grid-cols-3 md:grid-cols-2 md:gap-5 lg:gap-10 gap-5">
 

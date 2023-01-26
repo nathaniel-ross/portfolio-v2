@@ -16,6 +16,8 @@ function App() {
         <Hero />
         <div id="projects"></div>
         <br />
+        <br />
+        <br />
         <Cards />
         <br />
         <div id="about"></div>
